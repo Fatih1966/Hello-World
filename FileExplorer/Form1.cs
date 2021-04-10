@@ -12,9 +12,11 @@ using System.IO;
 namespace FileExplorer
 {
     /// <summary>
+    /// This WindowsForms application creates a File Explorer View of Your Computer starting from the specified root directory
     /// This project is developed using the following document
     /// https://docs.microsoft.com/en-us/dotnet/desktop/winforms/controls/creating-an-explorer-style-interface-with-the-listview-and-treeview?view=netframeworkdesktop-4.8
-    /// Directory info at line 26 should be provided by a new user according to the name of the user's computer.
+    /// Root Directory info at line 26 should be provided by every new user.
+    /// Available at GitHub
     /// </summary>
     public partial class Form1 : Form
     {
